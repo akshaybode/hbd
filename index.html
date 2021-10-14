@@ -8,13 +8,14 @@
 <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
  <script type="JavaScript">
-var name=alert("Enter your name");
+var nameA=alert("Enter your name");
  window.open = function() {};
             window.print = function() {};
             // Support hover state for mobile.
             if (false) {
                 window.ontouchstart = function() {};
             }
+            document.getElementById(id).innerHTML = nameA;
 </script>
 </head>
 
@@ -52,7 +53,7 @@ var name=alert("Enter your name");
                 <div><span>!</span>
                 </div>
             </div>
-             <h1>Vrushabh</h1>
+             <h1 id="name"></h1>
 
         </div>
         
